@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         {
             c=b1/b2;
             t1.setText(String.valueOf(b1)+"/"+String.valueOf(b2)+"="+String.valueOf(c));
+
         }
         }
     }
