@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         a2=Integer.parseInt(text2.getText().toString());
         int c;
         c=a1+a2;
-        t1.setText(String.valueOf(c));
+        t1.setText(String.valueOf(a1)+"+"+String.valueOf(a2)+"="+String.valueOf(c));
     }
     }
     private void Subtract()
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         a2=Integer.parseInt(text2.getText().toString());
         int c;
         c=a1-a2;
-        t1.setText(String.valueOf(c));
+        t1.setText(String.valueOf(a1)+"-"+String.valueOf(a2)+"="+String.valueOf(c));
     }}
     private void Multiply()
     {
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         a2=Integer.parseInt(text2.getText().toString());
         int c;
         c=a1*a2;
-        t1.setText(String.valueOf(c));
+        t1.setText(String.valueOf(a1)+"*"+String.valueOf(a2)+"="+String.valueOf(c));
     }}
     private void Divide()
     {
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         else
         {
             c=b1/b2;
-            t1.setText(String.valueOf(c));
+            t1.setText(String.valueOf(b1)+"/"+String.valueOf(b2)+"="+String.valueOf(c));
         }
         }
     }
