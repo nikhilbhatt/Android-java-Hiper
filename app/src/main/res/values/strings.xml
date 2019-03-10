@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hiper</string>
+    <string name="enter_no_1">Enter no 1</string>
+    <string name="enter_no_2">Enter no 2</string>
+    <string name="add">ADD</string>
+    <string name="subtract">Subtract</string>
+    <string name="multiply">Multiply</string>
+    <string name="divide">Divide</string>
+    <string name="clear">Clear</string>
+</resources>
